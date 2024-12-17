@@ -1,5 +1,6 @@
 package 'XConcernsStakeholdersConcerns' {
     public import StakeholdersLibrary::*;
+    //private import Viewpoints::*;
     
     concern 'SecurityRequirements' {
 	    doc /*
@@ -85,7 +86,7 @@ package 'XConcernsStakeholdersConcerns' {
     	*/
     	stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
     	stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-    	// viewpoint 'SecurityRiskAnalysisViewpont';
+    	// viewpoint SecurityRiskAnalysisViewpont;
     	}    
 
     concern 'LikelihoodRiskScenario' {

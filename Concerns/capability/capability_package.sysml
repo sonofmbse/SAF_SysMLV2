@@ -1,6 +1,6 @@
 package 'CapabilityStakeholdersConcerns' {
     public import StakeholdersLibrary::*;
-    public import Viewpoints::*
+    public import Viewpoints::*;
     	concern 'OperationalCapabilitiesDefined' {
 	    doc /*
 	    * What operational capabilities are defined?
