@@ -9,7 +9,7 @@ package 'CapabilityStakeholdersConcerns' {
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder portfolioManager: 'StakeholdersLibrary'::PortfolioManager;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalCapabilityDefinitionViewpoint';
+	    // viewpoint 'OperationalCapabilityDefinitionViewpoint';
 	}
 	
 	concern 'SystemSupportedCapabilities' {
@@ -19,13 +19,13 @@ package 'CapabilityStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
-	    viewpoint 'SystemCapabilityDefinitionViewpoint';
+	    // viewpoint 'SystemCapabilityDefinitionViewpoint';
 	}
 	
 	concern 'OperationalCapabilitiesPerPhase' {
 	    doc /*
 	    * What operational capabilities are required for each phase and mode of operation?
 	    */
-	    viewpoint 'OperationalCapabilityDefinitionViewpoint';
+	    // viewpoint 'OperationalCapabilityDefinitionViewpoint';
 	}
 }

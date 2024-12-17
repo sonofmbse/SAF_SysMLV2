@@ -6,7 +6,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    * What are the Security Requirements?
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SecurityRiskAnalysisViewpoint';
+	    // viewpoint 'SecurityRiskAnalysisViewpoint';
 	}
 	
 	concern 'SecurityMeasures' {
@@ -14,7 +14,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    * What are the Security Measures?
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SecurityRiskAnalysisViewpoint';
+	    // viewpoint 'SecurityRiskAnalysisViewpoint';
 	}
 	
 	concern 'AssetsNeedingProtection' {
@@ -23,7 +23,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'AssetIdentificationViewpoint';
+	    // viewpoint 'AssetIdentificationViewpoint';
 	}
 	
 	concern 'AttackVectors' {
@@ -33,7 +33,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	   
-	    viewpoint 'SecurityContextViewpoint';
+	    // viewpoint 'SecurityContextViewpoint';
 	}
 	
 	concern 'PotentialAdversaries' {
@@ -42,7 +42,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-   		viewpoint 'SecurityContextViewpoint';
+   		// viewpoint 'SecurityContextViewpoint';
 	
 	}
 	
@@ -51,7 +51,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    * What are the Assumptions regarding the context elements?
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SecurityContextViewpoint';
+	    // viewpoint 'SecurityContextViewpoint';
 	}
 	
     concern 'SeverityOfLoss' {
@@ -59,7 +59,7 @@ package 'XConcernsStakeholdersConcerns' {
 	    * Which severity has the Loss of the Security Objectives?
 	    */
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'ImpactAnalysisViewpoint';
+	    // viewpoint 'ImpactAnalysisViewpoint';
 	}	
 	
 	concern 'ExistingAttackPaths' {
@@ -68,7 +68,7 @@ package 'XConcernsStakeholdersConcerns' {
     	*/
     	stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
     	stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-    	viewpoint 'ThreatScenarioViewpoint';
+    	// viewpoint 'ThreatScenarioViewpoint';
 	}
 
     concern 'AttackPaths' {
@@ -76,7 +76,7 @@ package 'XConcernsStakeholdersConcerns' {
         * How are attack paths used?
         */
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-    	viewpoint 'ThreatScenarioViewpoint';
+    	// viewpoint 'ThreatScenarioViewpoint';
     }
 
     concern 'Risk' {
@@ -85,7 +85,7 @@ package 'XConcernsStakeholdersConcerns' {
     	*/
     	stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
     	stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-    	viewpoint 'SecurityRiskAnalysisViewpont';
+    	// viewpoint 'SecurityRiskAnalysisViewpont';
     	}    
 
     concern 'LikelihoodRiskScenario' {
@@ -93,7 +93,7 @@ package 'XConcernsStakeholdersConcerns' {
         * What is the likelihood of a risk szenario?
         */
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-        viewpoint 'ThreatSzenarioViewpoint';
+        // viewpoint 'ThreatSzenarioViewpoint';
     }
 
 

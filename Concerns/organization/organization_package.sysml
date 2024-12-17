@@ -9,14 +9,14 @@ package 'OrganizationStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
-	    viewpoint 'StakeholderRequirementDefinitionViewpoint';
+	    // viewpoint 'StakeholderRequirementDefinitionViewpoint';
 	}
 	
 	concern 'OrganizationalEntitiesForCapability' {
 	    doc /*
 	    * What parts of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
 	    */
-	    viewpoint 'OperationalPerformerViewpoint';
+	    // viewpoint 'OperationalPerformerViewpoint';
 	}
 	
 	concern 'RelationshipsBetweenParties' {
@@ -26,7 +26,7 @@ package 'OrganizationStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalPerformerViewpoint';
+	    // viewpoint 'OperationalPerformerViewpoint';
 	}
 	
 	concern 'PerformersAndResources' {
@@ -36,7 +36,7 @@ package 'OrganizationStakeholdersConcerns' {
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalContextDefinitionViewpoint';
+	    // viewpoint 'OperationalContextDefinitionViewpoint';
 	    
 	    }
 }

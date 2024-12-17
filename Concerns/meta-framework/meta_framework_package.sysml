@@ -6,7 +6,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    * Which viewpoints are used in the system model?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
-	    viewpoint 'GridDefinitionViewpoint';
+	    // viewpoint 'GridDefinitionViewpoint';
 	}
 	
 	concern 'RelationsBetweenSEConcepts' {
@@ -15,7 +15,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkConceptDefinitionViewpoint';
+	    // viewpoint 'FrameworkConceptDefinitionViewpoint';
 	}
 	
 	concern 'ConstraintsOnSEConcepts' {
@@ -24,7 +24,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkConceptDefinitionViewpoint';
+	    // viewpoint 'FrameworkConceptDefinitionViewpoint';
 	}
 	
 	concern 'AvailableViewpoints' {
@@ -33,7 +33,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'MaturityOfViewpoints' {
@@ -42,7 +42,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'FrameworkStakeholders' {
@@ -51,7 +51,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
+	    // viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
 	}
 	
 	concern 'FrameworkConcernsAddressed' {
@@ -68,7 +68,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkConceptDefinitionViewpoint';
+	    // viewpoint 'FrameworkConceptDefinitionViewpoint';
 	}
 	
 	concern 'StakeholderConcerns' {
@@ -77,7 +77,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
+	    // viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
 	}
 	
 	concern'StakeholderConcernsReasons'{
@@ -86,45 +86,45 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
+	    // viewpoint 'FrameworkStakeholderAndConcernDefinitionViewpoint';
 	}
 	
 	concern 'ConceptsExposedInViewpoints' {
 	    doc /*
-	    * Which systems engineering concepts are exposed within a viewpoint of the framework?
+	    * Which systems engineering concepts are exposed within a // viewpoint of the framework?
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'ConcernsFramedByViewpoints' {
 	    doc /*
-	    * Which concerns are framed by a viewpoint of the framework?
+	    * Which concerns are framed by a // viewpoint of the framework?
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'DefinitionOfViewpoints' {
 	    doc /*
-	    * What is the definition of a viewpoint of the framework?
+	    * What is the definition of a // viewpoint of the framework?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'ViewpointLocationInGrid' {
 	    doc /*
-	    * Where is a viewpoint of the framework located in the framework's grid?
+	    * Where is a // viewpoint of the framework located in the framework's grid?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'FrameworkGridStructure' {
@@ -134,7 +134,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'DefinitionOfGridColumns' {
@@ -144,7 +144,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'DefinitionOfGridRows' {
@@ -154,7 +154,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
-	    viewpoint 'FrameworkViewpointOverviewViewpoint';
+	    // viewpoint 'FrameworkViewpointOverviewViewpoint';
 	}
 	
 	concern 'ImplementationOfFrameworkConcepts' {
@@ -162,57 +162,57 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    * What is the implementation of the framework's concepts?
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkViewpointImplementationViewpoint';
-	    viewpoint 'FrameworkImplementationTraceabilityViewpoint';
+	    // viewpoint 'FrameworkViewpointImplementationViewpoint';
+	    // viewpoint 'FrameworkImplementationTraceabilityViewpoint';
 	}
 	
 	concern 'ViewpointImplementation' {
 	    doc /*
-	    * How is a viewpoint implemented (which stereotypes/model elements are used)?
+	    * How is a // viewpoint implemented (which stereotypes/model elements are used)?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkViewpointImplementationViewpoint';
+	    // viewpoint 'FrameworkViewpointImplementationViewpoint';
 	}
 	
 	concern 'ViewpointPurpose' {
 	    doc /*
-	    * What is the purpose of a viewpoint in the framework?
+	    * What is the purpose of a // viewpoint in the framework?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'ViewpointPresentations' {
 	    doc /*
-	    * Which presentations are available for a viewpoint in the framework?
+	    * Which presentations are available for a // viewpoint in the framework?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'ViewpointDependencies' {
 	    doc /*
-	    * Which dependencies to other viewpoints exist for a viewpoint of the framework?
+	    * Which dependencies to other viewpoints exist for a // viewpoint of the framework?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'SupportForSEStandards' {
 	    doc /*
-	    * How does a viewpoint of the framework support the processes and best practices of the INCOSE SE Handbook or other system engineering standards?
+	    * How does a // viewpoint of the framework support the processes and best practices of the INCOSE SE Handbook or other system engineering standards?
 	    */
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
-	    viewpoint 'FrameworkViewpointDefinitionViewpoint';
+	    // viewpoint 'FrameworkViewpointDefinitionViewpoint';
 	}
 	
 	concern 'FrameworkModelElements' {
@@ -222,8 +222,8 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
 	    stakeholder safMBSEPlanner: 'StakeholdersLibrary'::SAFMBSEApproachPlanner;
 	    stakeholder safDeveloper: 'StakeholdersLibrary'::SAFDeveloper;
-	    viewpoint 'FrameworkImplementationTraceabilityViewpoint';
-	    viewpoint 'FrameworkStereotypeOverviewViewpoint';
+	    // viewpoint 'FrameworkImplementationTraceabilityViewpoint';
+	    // viewpoint 'FrameworkStereotypeOverviewViewpoint';
 	}
 	    
     concern 'FrameworkViewpoints'{
@@ -231,7 +231,7 @@ package 'MetaFrameworkStakeholdersConcerns' {
 	    * Which views of the frameworks viewpoints are present in the system model?
 	    */
 	    stakeholder safSystemModelUser: 'StakeholdersLibrary'::SAFSystemModelUser;
-	    viewpoint 'GridDefinitionViewpoint';
+	    // viewpoint 'GridDefinitionViewpoint';
 	    
 	}
 }

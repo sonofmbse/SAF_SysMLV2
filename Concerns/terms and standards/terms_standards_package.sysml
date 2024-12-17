@@ -8,7 +8,7 @@ package 'TermsStandardsStakeholderConcerns' {
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder MechanicDeveloper: 'StakeholdersLibrary'::MechanicDeveloper;
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
-	    viewpoint 'CommonStandardsDefinitionViewpoint';
+	    // viewpoint 'CommonStandardsDefinitionViewpoint';
 	}
 	
 	concern 'ApplicableStandardsReleases' {
@@ -16,7 +16,7 @@ package 'TermsStandardsStakeholderConcerns' {
 	    * Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'CommonStandardsDefinitionViewpoint';
+	    // viewpoint 'CommonStandardsDefinitionViewpoint';
 	}
 	
 	concern 'ReferencedStandards' {
@@ -24,14 +24,14 @@ package 'TermsStandardsStakeholderConcerns' {
 	    * Which other standards are referenced or referred to by applicable standards?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'CommonStandardsDefinitionViewpoint';
+	    // viewpoint 'CommonStandardsDefinitionViewpoint';
 	}
 	
 	concern 'StandardIdentification' {
 	    doc /*
 	    * What is the complete identification of a standard or a specification?
 	    */
-	    viewpoint 'CommonStandardsDefinitionViewpoint';
+	    // viewpoint 'CommonStandardsDefinitionViewpoint';
 	}
 	
 	concern 'ApplicableTermsAndAbbreviations' {
@@ -43,7 +43,7 @@ package 'TermsStandardsStakeholderConcerns' {
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
-	    viewpoint 'CommonTermsDefinitionViewpoint';
+	    // viewpoint 'CommonTermsDefinitionViewpoint';
 	}
 	
 	concern 'SourcesOfTerms' {
@@ -54,7 +54,7 @@ package 'TermsStandardsStakeholderConcerns' {
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder MechanicDeveloper: 'StakeholdersLibrary'::MechanicDeveloper;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'CommonTermsDefinitionViewpoint';
+	    // viewpoint 'CommonTermsDefinitionViewpoint';
 	}
 	
 	concern 'SupersedingStandards' {
@@ -62,7 +62,7 @@ package 'TermsStandardsStakeholderConcerns' {
 	    * By which standard is another standard superseded?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'CommonStandardsDefinitionViewpoint';
+	    // viewpoint 'CommonStandardsDefinitionViewpoint';
 	}
     
     }

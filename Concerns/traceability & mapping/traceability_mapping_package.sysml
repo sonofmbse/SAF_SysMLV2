@@ -6,8 +6,8 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    * Which System Requirements are derived from Stakeholder Requirements?
 	    */
 	    stakeholder projectManager: 'StakeholdersLibrary'::ProjectManager;
-	    viewpoint 'SystemRequirementDefinitionViewpoint';
-	    viewpoint 'SystemRequirementTraceabilityViewpoint';
+	    // viewpoint 'SystemRequirementDefinitionViewpoint';
+	    // viewpoint 'SystemRequirementTraceabilityViewpoint';
 	}
 	
 	concern 'OperationalCapabilityRelationships' {
@@ -18,7 +18,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder portfolioManager: 'StakeholdersLibrary'::PortfolioManager;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalCapabilityMappingViewpoint';
+	    // viewpoint 'OperationalCapabilityMappingViewpoint';
 	}
 	
 	concern 'SystemFunctionScenarios' {
@@ -33,14 +33,14 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'SystemInterfaceAddressedByRequirement' {
 	    doc /*
 	    * Which system interface is addressed by a system requirement?
 	    */
-	    viewpoint 'SystemRequirementTraceabilityViewpoint';
+	    // viewpoint 'SystemRequirementTraceabilityViewpoint';
 	}
 	
 	concern 'SystemFunctionAddressedByRequirement' {
@@ -48,21 +48,21 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    * Which system function is addressed by a system requirement?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'SystemRequirementTraceabilityViewpoint';
+	    // viewpoint 'SystemRequirementTraceabilityViewpoint';
 	}
 	
 	concern 'SystemRequirementRationale' {
 	    doc /*
 	    * What is the rationale for a system requirement?
 	    */
-	    viewpoint 'SystemRequirementTraceabilityViewpoint';
+	    // viewpoint 'SystemRequirementTraceabilityViewpoint';
 	}
 	
 	concern 'FunctionsToBeImplementedInHW' {
 	    doc /*
 	    * Which functions need to be implemented in HW?
 	    */
-	    viewpoint 'PhysicalFunctionalMappingViewpoint';
+	    // viewpoint 'PhysicalFunctionalMappingViewpoint';
 	}
 	
 	concern 'OperationalProcessRelationships' {
@@ -73,7 +73,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder portfolioManager: 'StakeholdersLibrary'::PortfolioManager;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalProcessMappingViewpoint';
+	    // viewpoint 'OperationalProcessMappingViewpoint';
 	}
 	
 	concern 'FunctionToPhysicalArchitectureMapping' {
@@ -84,7 +84,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder mechanicDeveloper: 'StakeholdersLibrary'::MechanicDeveloper;
-	    viewpoint 'PhysicalFunctionalMappingViewpoint';
+	    // viewpoint 'PhysicalFunctionalMappingViewpoint';
 	}
 	
 	concern 'SystemFunctionsDependentOnModes' {
@@ -92,7 +92,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    * Which system functions are dependent on a system's mode or state?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'SystemStateViewpoint';
+	    // viewpoint 'SystemStateViewpoint';
 	}
 	
 	concern 'FunctionsAllocatedToLogicalArchitecture' {
@@ -102,7 +102,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'LogicalFunctionalMappingViewpoint';
+	    // viewpoint 'LogicalFunctionalMappingViewpoint';
 	}
 	
 	concern 'FunctionsAndServicesInSW' {
@@ -110,7 +110,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    * Which functions and services need to be implemented in SW?
 	    */
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
-	    viewpoint 'PhysicalFunctionalMappingViewpoint';
+	    // viewpoint 'PhysicalFunctionalMappingViewpoint';
 	}
 	
 	concern 'LogicalToPhysicalMapping' {
@@ -122,14 +122,14 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'PhysicalLogicalMappingViewpoint';
+	    // viewpoint 'PhysicalLogicalMappingViewpoint';
 	}
 	
 	concern 'FunctionsRealizedByMechanicalDesign' {
 	    doc /*
 	    * Which functions need to be realized by mechanical design?
 	    */
-	    viewpoint 'PhysicalFunctionalMappingViewpoint';
+	    // viewpoint 'PhysicalFunctionalMappingViewpoint';
 	}
    
    

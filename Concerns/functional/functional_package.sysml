@@ -14,8 +14,8 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SystemProcessViewpoint';
-	    viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
 	}
 	
 	concern 'SystemFunctions' {
@@ -31,8 +31,8 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SystemProcessViewpoint';
-	    viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
 	}
 	
 	concern 'NecessarySystemInputs' {
@@ -46,7 +46,7 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder operator: 'StakeholdersLibrary'::Operator;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'OperationalActivities' {
@@ -56,7 +56,7 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalProcessViewpoint';
+	    // viewpoint 'OperationalProcessViewpoint';
 	}
 	
 	concern 'SystemFunctionBreakdown' {
@@ -64,16 +64,16 @@ package 'FunctionalStakeholdersConcerns' {
 	     * What is the breakdown of functions into sub-functions?
 	     */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
-	    viewpoint 'SystemFunctionalRefinementViewpoint';
+	    // viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
+	    // viewpoint 'SystemFunctionalRefinementViewpoint';
 	}
 	
 	concern 'SystemFunctionDecomposition' {
 	    doc /*
 	     * How are the system functions decomposed into smaller, and more manageable sub-functions?
 	     */
-	    viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
-	    viewpoint 'SystemFunctionalRefinementViewpoint';
+	    // viewpoint 'SystemFunctionalBreakdownStructureViewpoint';
+	    // viewpoint 'SystemFunctionalRefinementViewpoint';
 	}
 	
 	concern 'ExpectedExternalServices' {
@@ -85,14 +85,14 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'OutOfScopeSystemFunctions' {
 	    doc /*
 	     * Which functions are out of scope of the system?
 	     */
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'SystemFunctionEnviromentInteraction' {
@@ -106,21 +106,21 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder user: 'StakeholdersLibrary'::User;
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'FunctionalScope' {
 	    doc /*
 	     * What is the functional scope of the system?
 	     */
-	    viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
 	}
 	
 	concern 'SubfunctionInteractions' {
 	    doc /*
 	     * What are the interactions and dependencies between the different identified sub-functions?
 	     */
-	    viewpoint 'System Functional Refinement Viewpoint';
+	    // viewpoint 'System Functional Refinement // viewpoint';
 	}
 	
 	concern 'SystemModes' {
@@ -135,7 +135,7 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder regulationAuthority: 'StakeholdersLibrary'::RegulationAuthority;
-	    viewpoint 'SystemStateViewpoint';
+	    // viewpoint 'SystemStateViewpoint';
 	}
 	
 	concern 'OperationalProcessActivities' {
@@ -145,7 +145,7 @@ package 'FunctionalStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalProcessViewpoint';
+	    // viewpoint 'OperationalProcessViewpoint';
 	}
 	
 	concern 'SystemFunctionsTesting' {
@@ -153,7 +153,7 @@ package 'FunctionalStakeholdersConcerns' {
 	     * Which system functions need to be tested in IV&V activities?
 	     */
 	    stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
-	    viewpoint 'PhysicalFunctionalMappingViewpoint';
+	    // viewpoint 'PhysicalFunctionalMappingViewpoint';
 	}
 	
 }

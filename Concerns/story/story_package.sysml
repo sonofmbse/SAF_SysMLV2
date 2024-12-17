@@ -4,7 +4,7 @@ package 'StoryStakeholderConcerns' {
 	    doc /*
 	    * Which are the system scenarios, i.e., course of action, for the system context in which the system solution will exist?
 	    */
-	    viewpoint 'SystemUseCaseViewpoint';
+	    // viewpoint 'SystemUseCaseViewpoint';
 	}
 
 	concern 'SystemPurpose' {
@@ -14,7 +14,7 @@ package 'StoryStakeholderConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder projectManager: 'StakeholdersLibrary'::ProjectManager;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
-	    viewpoint 'SystemUseCaseViewpoint';
+	    // viewpoint 'SystemUseCaseViewpoint';
 	}
 	
 	concern 'OperationalScenarios' {
@@ -24,14 +24,14 @@ package 'StoryStakeholderConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalStoryViewpoint';
+	    // viewpoint 'OperationalStoryViewpoint';
 	}
 	
 	concern 'SystemAccomplishmentsForUsers' {
 	    doc /*
 	    * What has the system to accomplish for its users?
 	    */
-	    viewpoint 'SystemUseCaseViewpoint';
+	    // viewpoint 'SystemUseCaseViewpoint';
 	}
 	
 	}

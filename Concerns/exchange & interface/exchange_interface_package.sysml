@@ -13,7 +13,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
         stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
-        viewpoint 'SystemDomainItemKindViewpoint';
+        // viewpoint 'SystemDomainItemKindViewpoint';
     }
 
     concern 'PhysicalInterfaceItems' {
@@ -26,8 +26,8 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
         stakeholder MechanicDeveloper: 'StakeholdersLibrary'::MechanicDeveloper;
-        viewpoint 'PhysicalContextExchangeViewpoint';
-        viewpoint 'PhysicalInternalExchangeViewpoint';
+        // viewpoint 'PhysicalContextExchangeViewpoint';
+        // viewpoint 'PhysicalInternalExchangeViewpoint';
     }
 
     concern 'PhysicalInteractionForFunctions' {
@@ -39,7 +39,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-        viewpoint 'PhysicalInternalExchangeViewpoint';
+        // viewpoint 'PhysicalInternalExchangeViewpoint';
     }
 
     concern 'ExternalPhysicalExchanges' {
@@ -49,7 +49,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
          */
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-        viewpoint 'PhysicalContextExchangeViewpoint';
+        // viewpoint 'PhysicalContextExchangeViewpoint';
     }
 
     concern 'InternalConceptualExchanges' {
@@ -63,7 +63,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
-        viewpoint 'LogicalInternalExchangeViewpoint';
+        // viewpoint 'LogicalInternalExchangeViewpoint';
     }
 
     concern 'PhysicalInterfaceStandards' {
@@ -75,9 +75,9 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-        viewpoint 'System Interface Definition Viewpoint';
-        viewpoint 'PhysicalContextExchangeViewpoint';
-        viewpoint 'PhysicalInternalExchangeViewpoint';
+        // viewpoint 'System Interface Definition // viewpoint';
+        // viewpoint 'PhysicalContextExchangeViewpoint';
+        // viewpoint 'PhysicalInternalExchangeViewpoint';
     }
 
     concern 'InformationExchangeProtocols' {
@@ -86,7 +86,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
          */
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-        viewpoint 'PhysicalInterfaceDefinitionViewpoint';
+        // viewpoint 'PhysicalInterfaceDefinitionViewpoint';
     }
 
     concern 'ExternalConceptualExchanges' {
@@ -103,8 +103,8 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder customer: 'StakeholdersLibrary'::Customer;
         stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
-        viewpoint 'SystemContextExchangeViewpoint';
-        viewpoint 'SystemInterfaceDefinitionViewpoint';
+        // viewpoint 'SystemContextExchangeViewpoint';
+        // viewpoint 'SystemInterfaceDefinitionViewpoint';
     }
 
     concern 'PhysicalExchangeProtocols' {
@@ -116,8 +116,8 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-        viewpoint 'PhysicalContextExchangeViewpoint';
-        viewpoint 'PhysicalInternalExchangeViewpoint';
+        // viewpoint 'PhysicalContextExchangeViewpoint';
+        // viewpoint 'PhysicalInternalExchangeViewpoint';
     }
 
     concern 'PhysicalArchitectureItems' {
@@ -130,7 +130,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
         stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
-        viewpoint 'PhysicalInterfaceDefinitionViewpoint';
+        // viewpoint 'PhysicalInterfaceDefinitionViewpoint';
     }
 
     concern 'InternalPhysicalExchanges' {
@@ -144,14 +144,14 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
         stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-        viewpoint 'PhysicalInternalExchangeViewpoint';
+        // viewpoint 'PhysicalInternalExchangeViewpoint';
     }
 
     concern 'PhysicalElementInterfaces' {
         doc /*
          * What are the interface definitions for physical elements?
          */
-        viewpoint 'PhysicalInterfaceDefinitionViewpoint';
+        // viewpoint 'PhysicalInterfaceDefinitionViewpoint';
     }
 
     concern 'LogicalArchitectureInterfaces' {
@@ -159,7 +159,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
          * Which are the interface definitions for the logical architecture?
          */
         stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-        viewpoint 'SystemInterfaceDefinitionViewpoint';
+        // viewpoint 'SystemInterfaceDefinitionViewpoint';
     }
 
     concern 'PhysicalArchitectureInterfaces' {
@@ -170,7 +170,7 @@ package 'ExchangeandInterfaceStakeholdersConcerns' {
         stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
         stakeholder mechanicDeveloper: 'StakeholdersLibrary'::MechanicDeveloper;
         stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
-        viewpoint 'PhysicalInterfaceDefinitionViewpoint';
+        // viewpoint 'PhysicalInterfaceDefinitionViewpoint';
     }
 }
     

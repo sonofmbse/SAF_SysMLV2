@@ -9,7 +9,7 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder operator: 'StakeholdersLibrary'::Operator;
 	    stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
-	    viewpoint 'SystemUseCaseViewpoint';
+	    // viewpoint 'SystemUseCaseViewpoint';
 	}
 	
 	concern 'OperationalExchanges' {
@@ -22,7 +22,7 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder softwareDeveloper: 'StakeholdersLibrary'::SoftwareDeveloper;
 	    stakeholder regulationAuthority: 'StakeholdersLibrary'::RegulationAuthority;
-	    viewpoint 'OperationalDomainItemKindViewpoint';
+	    // viewpoint 'OperationalDomainItemKindViewpoint';
 	}
 	
 	concern 'ExternalPhysicalEntities' {
@@ -35,24 +35,24 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
 	    stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
-	    viewpoint 'PhysicalContextDefinitionViewpoint';
-	    viewpoint 'PhysicalContextExchangeViewpoint';
+	    // viewpoint 'PhysicalContextDefinitionViewpoint';
+	    // viewpoint 'PhysicalContextExchangeViewpoint';
 	}
 	
 	concern 'SystemInteractions' {
 	    doc /*
 	    * How is the system interacting with the identified external entities?
 	    */
-	    viewpoint 'SystemProcessViewpoint';
-	    viewpoint 'SystemContextExchangeViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemContextExchangeViewpoint';
 	}
 	
 	concern 'ConceptualInterfaces' {
 	    doc /*
 	    * Which are the conceptual interfaces of the system?
 	    */
-	    viewpoint 'SystemProcessViewpoint';
-	    viewpoint 'SystemContextExchangeViewpoint';
+	    // viewpoint 'SystemProcessViewpoint';
+	    // viewpoint 'SystemContextExchangeViewpoint';
 	}
 	
 	concern 'SystemUtilization' {
@@ -65,8 +65,8 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder user: 'StakeholdersLibrary'::User;
 	    stakeholder operator: 'StakeholdersLibrary'::Operator;
-	    viewpoint 'SystemUseCaseViewpoint';
-	    viewpoint 'SystemContextInteractionViewpoint';
+	    // viewpoint 'SystemUseCaseViewpoint';
+	    // viewpoint 'SystemContextInteractionViewpoint';
 	}
 	
 	concern 'EmbeddedContexts' {
@@ -76,8 +76,8 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'SystemContextDefinitionViewpoint';
-	    viewpoint 'PhysicalContextDefinitionViewpoint';
+	    // viewpoint 'SystemContextDefinitionViewpoint';
+	    // viewpoint 'PhysicalContextDefinitionViewpoint';
 	}
 	
 	concern 'OperationalContextExchanges' {
@@ -89,15 +89,15 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalContextExchangeViewpoint';
+	    // viewpoint 'OperationalContextExchangeViewpoint';
 	}
 	
 	concern 'ExternalConceptualEntities' {
 	    doc /*
 	    * Which are the external conceptual entities the system interacts with in the given context?
 	    */
-	    viewpoint 'SystemContextExchangeViewpoint';
-	    viewpoint 'SystemContextDefinitionViewpoint';
+	    // viewpoint 'SystemContextExchangeViewpoint';
+	    // viewpoint 'SystemContextDefinitionViewpoint';
 	}
 	
 	concern 'OperationalContextStory' {
@@ -107,14 +107,14 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalContextDefinitionViewpoint';
+	    // viewpoint 'OperationalContextDefinitionViewpoint';
 	}
 	
 	concern 'OperationalEnvironment' {
 	    doc /*
 	    * What is the operational environment that an intended solution will need to support?
 	    */
-	    viewpoint 'OperationalContextDefinitionViewpoint';
+	    // viewpoint 'OperationalContextDefinitionViewpoint';
 	}
 	
 	concern 'GeographicalLocations' {
@@ -124,7 +124,7 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
-	    viewpoint 'SystemContextDefinitionViewpoint';
+	    // viewpoint 'SystemContextDefinitionViewpoint';
 	}
 	
 	concern 'InterfacePartners' {
@@ -135,8 +135,8 @@ package 'BoundaryandContextStakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'SystemContextDefinitionViewpoint';
-	    viewpoint 'PhysicalContextDefinitionViewpoint';
+	    // viewpoint 'SystemContextDefinitionViewpoint';
+	    // viewpoint 'PhysicalContextDefinitionViewpoint';
 	}
 }
 

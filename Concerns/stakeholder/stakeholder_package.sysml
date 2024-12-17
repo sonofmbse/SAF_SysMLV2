@@ -4,7 +4,7 @@ package 'StakeholdersConcerns' {
 	    doc /*
 	    * Which external entities (external systems, environments, etc.) does a Stakeholder represent?
 	    */
-	    viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
 	}
 	
 	concern 'StakeholderInvolvementInLifecycle' {
@@ -13,7 +13,7 @@ package 'StakeholdersConcerns' {
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder projectManager: 'StakeholdersLibrary'::ProjectManager;
-	    viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
 	}
 	
 	concern 'RelevantStakeholdersImposingRequirements' {
@@ -24,14 +24,14 @@ package 'StakeholdersConcerns' {
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder projectManager: 'StakeholdersLibrary'::ProjectManager;
-	    viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
 	}
 	
 	concern 'RelationsAndInfluencesBetweenStakeholders' {
 	    doc /*
 	    * What relevant relations and influences exist between Stakeholders?
 	    */
-	    viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
 	}
 	
 	concern 'MajorStakeholdersInSolution' {
@@ -41,8 +41,8 @@ package 'StakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder supplier: 'StakeholdersLibrary'::Supplier;
-	    viewpoint 'StakeholderIdentificationViewpoint';
-	    viewpoint 'OperationalContextDefinitionViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'OperationalContextDefinitionViewpoint';
 	}
 	
 	concern 'StakeholderConcernsAndRationales' {
@@ -51,7 +51,7 @@ package 'StakeholdersConcerns' {
 	    */
 	    stakeholder projectManager: 'StakeholdersLibrary'::ProjectManager;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'StakeholderIdentificationViewpoint';
+	    // viewpoint 'StakeholderIdentificationViewpoint';
 	}
 	
 	}

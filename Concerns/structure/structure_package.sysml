@@ -6,7 +6,7 @@ package 'StructureStakeholderConcerns' {
 	    * What is the logical breakdown of the system?
 	    */
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'LogicalStructureDefinitionViewpoint';
+	    // viewpoint 'LogicalStructureDefinitionViewpoint';
 	}
 	
 	concern 'PhysicalSystemBreakdown' {
@@ -17,7 +17,7 @@ package 'StructureStakeholderConcerns' {
 	    stakeholder ivvEngineer: 'StakeholdersLibrary'::IVVEngineer;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
-	    viewpoint 'PhysicalStructureDefinitionViewpoint';
+	    // viewpoint 'PhysicalStructureDefinitionViewpoint';
 	}
 	    
     }

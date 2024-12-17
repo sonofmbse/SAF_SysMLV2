@@ -8,7 +8,7 @@ package 'InteractionStakeholdersConcerns' {
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
-	    viewpoint 'PhysicalInternalExchangeViewpoint';
+	    // viewpoint 'PhysicalInternalExchangeViewpoint';
 	}
 	
 	concern 'LogicalSystemInteractions' {
@@ -18,8 +18,8 @@ package 'InteractionStakeholdersConcerns' {
 	    stakeholder safetyExpert: 'StakeholdersLibrary'::SafetyExpert;
 	    stakeholder securityExpert: 'StakeholdersLibrary'::SecurityExpert;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'LogicalInternalInteractionViewpoint';
-	    viewpoint 'LogicalInternalExchangeViewpoint';
+	    // viewpoint 'LogicalInternalInteractionViewpoint';
+	    // viewpoint 'LogicalInternalExchangeViewpoint';
 	}
 	
 	concern 'PhysicalInteractionSequence' {
@@ -38,8 +38,8 @@ package 'InteractionStakeholdersConcerns' {
 	    doc /*
 	    * What are the items exchanged between logical system elements during an interaction?
 	    */
-	    viewpoint 'LogicalInternalInteractionViewpoint';
-	    viewpoint 'LogicalInternalExchangeViewpoint';
+	    // viewpoint 'LogicalInternalInteractionViewpoint';
+	    // viewpoint 'LogicalInternalExchangeViewpoint';
 	}
 	
 	concern 'ResponseTimeRequirements' {
@@ -56,8 +56,8 @@ package 'InteractionStakeholdersConcerns' {
 	    stakeholder hardwareDeveloper: 'StakeholdersLibrary'::HardwareDeveloper;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'SystemContextInteractionViewpoint';
-	    viewpoint 'LogicalInternalInteractionViewpoint';
+	    // viewpoint 'SystemContextInteractionViewpoint';
+	    // viewpoint 'LogicalInternalInteractionViewpoint';
 	}
 	
 	concern 'OperationalProcessThreads' {
@@ -67,14 +67,14 @@ package 'InteractionStakeholdersConcerns' {
 	    stakeholder acquirer: 'StakeholdersLibrary'::Acquirer;
 	    stakeholder customer: 'StakeholdersLibrary'::Customer;
 	    stakeholder systemArchitect: 'StakeholdersLibrary'::SystemArchitect;
-	    viewpoint 'OperationalContextInteractionViewpoint';
+	    // viewpoint 'OperationalContextInteractionViewpoint';
 	}
 	
 	concern 'ConceptualInteractionSequence' {
 	    doc /*
 	    * What is the sequence of interactions among the system and context elements on conceptual level?
 	    */
-	    viewpoint 'SystemContextInteractionViewpoint';
+	    // viewpoint 'SystemContextInteractionViewpoint';
 	}
 	
 }
