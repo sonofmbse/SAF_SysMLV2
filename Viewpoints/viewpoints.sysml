@@ -1,4 +1,4 @@
-package 'TraceabilityMappingStakeholderConcerns' {
+package 'Viewpoints' {
     public import StakeholdersLibrary::*;
     public import Concerns::*;
 
@@ -511,7 +511,7 @@ package 'TraceabilityMappingStakeholderConcerns' {
 	}
 	
 	viewpoint 'LogicalFunctionalMappingViewpoint' {  
-	    frame FunctionsAllocatedToLogicalArchitectur;
+	    frame FunctionsAllocatedToLogicalArchitecture;
 	
 	    require constraint {
 	        doc /*  */
