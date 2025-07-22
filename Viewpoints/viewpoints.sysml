@@ -1,4 +1,4 @@
-package 'Viewpoints' {
+package Viewpoints {
     public import StakeholdersLibrary::*;
     public import Concerns::*;
 
